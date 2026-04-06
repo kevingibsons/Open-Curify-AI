@@ -1,0 +1,27 @@
+default_model: qwen3-1.7b
+models:
+  qwen3-1.7b:
+    display_name: Qwen 3 1.7B Instruct
+    backend: llama_cpp
+    path: C:\Users\kevin\Desktop\CRSYNK OS\models\qwen3-1.7b.gguf
+    n_ctx: 8192
+    n_batch: 512
+    use_mmap: true
+    chat_format: chatml
+    profiles:
+      balanced:
+        temperature: 0.7
+        top_p: 0.9
+        repeat_penalty: 1.05
+        max_tokens: 512
+      precise:
+        temperature: 0.2
+        top_p: 0.85
+        repeat_penalty: 1.1
+        max_tokens: 512
+      creative:
+        temperature: 0.95
+        top_p: 0.95
+        repeat_penalty: 1.0
+        max_tokens: 640
+
