@@ -5,7 +5,7 @@
     "role": "maintainer",
     "name": "Kevin Gibson S",
     "email": "kevingibson468@gmail.com",
-    "phone": "08838521706",
+    "phone": "+918838521706",
     "description": "Student developer building Open Curify AI, a multilingual, self-hostable AI platform focused on privacy, accessibility, and low-resource environments.",
     "webpageUrl": {
       "url": "https://kevingibson.in",
@@ -16,7 +16,7 @@
     {
       "guid": "open-curify-ai",
       "name": "Open Curify AI",
-      "description": "Open Curify AI is an open-source, multilingual conversational AI platform designed for offline and low-resource environments. It supports local LLM inference, model routing, and self-hostable deployment with a focus on privacy and accessibility.",
+      "description": "Open Curify AI is an open-source, multilingual conversational AI platform designed for offline and low-resource environments.",
       "webpageUrl": {
         "url": "https://github.com/kevingibsons/Open-Curify-AI",
         "wellKnown": "https://github.com/kevingibsons/Open-Curify-AI"
@@ -24,17 +24,8 @@
       "repositoryUrl": {
         "url": "https://github.com/kevingibsons/Open-Curify-AI"
       },
-      "licenses": [
-        "spdx:MIT"
-      ],
-      "tags": [
-        "ai",
-        "chatbot",
-        "multilingual",
-        "llm",
-        "offline-ai",
-        "education"
-      ]
+      "licenses": ["spdx:MIT"],
+      "tags": ["ai", "chatbot", "multilingual", "llm", "offline-ai", "education"]
     }
   ],
   "funding": {
@@ -50,13 +41,11 @@
         "guid": "curify-grant",
         "status": "active",
         "name": "Open Curify AI Development Grant",
-        "description": "Funding to stabilize and scale Open Curify AI from MVP to a production-ready open-source system. Covers LLM optimization, voice pipeline integration, infrastructure, and developer tooling for community adoption.",
+        "description": "Funding to stabilize and scale Open Curify AI from MVP to a production-ready open-source platform.",
         "amount": 60000,
         "currency": "INR",
         "frequency": "one-time",
-        "channels": [
-          "bank"
-        ]
+        "channels": ["bank"]
       }
     ],
     "history": []
